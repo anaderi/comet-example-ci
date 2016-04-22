@@ -1,0 +1,4 @@
+#!/bin/bash
+
+wget https://nkazeev.web.cern.ch/nkazeev/comet_csc/train.csv
+wget https://nkazeev.web.cern.ch/nkazeev/comet_csc/test.csv
