@@ -8,4 +8,4 @@ before_install:
   - docker build -t comet_csc .
 
 script:
-  - true
+  - snakemake run_manual
