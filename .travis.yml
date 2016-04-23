@@ -7,4 +7,4 @@ before_install:
   - docker build -t comet_csc .
 
 script:
-  - docker run comet_csc /bin/bash -c "source activate open-ml && snakemake run_manual run_ml"
+  - docker run -v $TRAVIS_BUILD_DIR:/root/analysis comet_csc /bin/bash -c "source activate open-ml && cd /root/analysis && snakemake run_manual run_ml"
