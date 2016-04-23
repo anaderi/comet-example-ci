@@ -16,3 +16,5 @@ dependencies:
   - itsdangerous==0.24
   - jupyterhub==0.5.0
   - jupyter==1.0.0
+  - "--editable=git+https://github.com/renatopp/liac-arff.git@03394074deca70db2ff748bbccbbfe284254c54f#egg=liac-arff-2.1.1dev"
+  - "--editable=git+https://github.com/openml/openml-python.git@26686b0dda5b08776ef59e8637c5e3cd81dfca00#egg=openml-0.2.1"
